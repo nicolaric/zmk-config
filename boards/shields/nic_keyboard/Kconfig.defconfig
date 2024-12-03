@@ -4,7 +4,7 @@
 if NIC_KEYBOARD_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Aurora Sweep"
+    default "NIC Keyboard"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y

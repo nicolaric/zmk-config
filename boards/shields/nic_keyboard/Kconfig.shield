@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT
 
 config SHIELD_NIC_KEYBOARD_LEFT
-    def_bool $(shields_list_contains,splitkb_aurora_sweep_left)
+    def_bool $(shields_list_contains,nic_keyboard_left)
 
 config SHIELD_NIC_KEYBOARD_RIGHT
-    def_bool $(shields_list_contains,splitkb_aurora_sweep_right)
+    def_bool $(shields_list_contains,nic_keyboard_right)
