@@ -33,12 +33,6 @@
     b-gpios = <&pro_micro 10 GPIO_PULL_UP>;
 };
 
-&right_encoder2 {
-    status = "okay";
-    a-gpios = <&pro_micro 20 GPIO_PULL_UP>;
-    b-gpios = <&pro_micro 4  GPIO_PULL_UP>;
-};
-
 &default_transform {
     col-offset = <5>;
 };
