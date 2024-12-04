@@ -48,12 +48,6 @@
         status = "disabled";
     };
 
-    right_encoder2: right_encoder2 {
-        compatible = "alps,ec11";
-        steps = <80>;
-        status = "disabled";
-    };
-
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
         sensors = <&left_encoder1 &right_encoder1>;
