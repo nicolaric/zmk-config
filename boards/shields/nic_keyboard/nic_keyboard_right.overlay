@@ -27,15 +27,6 @@
     };
 };
 
-&pro_micro {
-    pinctrl-0 = <&pro_micro_pin4_as_gpio>;
-    pinctrl-names = "default";
-
-    pro_micro_pin4_as_gpio: pin4_as_gpio {
-        psels = <NRF_PSEL(GPIO_PIN, 0, 4)>; /* Pin 4 on port 0 */
-    };
-};
-
 &right_encoder1 {
     status = "okay";
     a-gpios = <&pro_micro 16 GPIO_PULL_UP>;
