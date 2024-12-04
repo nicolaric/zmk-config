@@ -1,8 +1,8 @@
 # Copyright (c) 2022 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config SHIELD_NIC_KEYBOARD_LEFT
+config NIC_KEYBOARD_LEFT
     def_bool $(shields_list_contains,nic_keyboard_left)
 
-config SHIELD_NIC_KEYBOARD_RIGHT
+config NIC_KEYBOARD_RIGHT
     def_bool $(shields_list_contains,nic_keyboard_right)
