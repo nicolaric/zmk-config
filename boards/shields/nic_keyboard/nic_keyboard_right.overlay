@@ -22,8 +22,17 @@
             , <&pro_micro 2  (GPIO_PULL_DOWN | GPIO_ACTIVE_HIGH)>
             , <&pro_micro 7  (GPIO_PULL_DOWN | GPIO_ACTIVE_HIGH)>
             , <&pro_micro 3  (GPIO_PULL_DOWN | GPIO_ACTIVE_HIGH)>
-            , <&pro_micro 4  GPIO_ACTIVE_HIGH>
+            , <&pro_micro 4  (GPIO_PULL_DOWN | GPIO_ACTIVE_HIGH)>
             ;
+    };
+};
+
+&pro_micro {
+    pinctrl-0 = <&pro_micro_pin4_as_gpio>;
+    pinctrl-names = "default";
+
+    pro_micro_pin4_as_gpio: pin4_as_gpio {
+        psels = <NRF_PSEL(GPIO_PIN, 0, 4)>; /* Pin 4 on port 0 */
     };
 };
 
@@ -36,3 +45,4 @@
 &default_transform {
     col-offset = <5>;
 };
+
