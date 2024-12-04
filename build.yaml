@@ -23,4 +23,3 @@ include:
     shield: nic_keyboard_left
   - board: nice_nano_v2
     shield: nic_keyboard_right
-    snippet: zmk-usb-logging
