@@ -90,7 +90,7 @@
         bindings = <
         &kp N1  &kp N2    &kp N3    &kp N4    &kp N5             &trans &trans   &trans   &trans  &trans
         &kp F1 &kp F2 &kp F3 &kp F4 &kp F5                          &trans &kp PG_UP  &kp K_VOL_UP &kp K_MUTE &trans
-        &kp ESC  &bt BT_NXT &bt BT_PRV &kp F6 &kp F7                 &trans &kp PG_DN  &kp K_VOL_DN  &trans &trans
+        &kp ESC  &bt BT_NXT &bt BT_PRV &kp F6 &kp F7                 &bt BT_CLR &kp PG_DN  &kp K_VOL_DN  &trans &trans
                      &trans &trans                      &trans &trans
         >;
         };
